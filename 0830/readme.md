@@ -27,3 +27,15 @@ WSL2 를 다운받기 위해 다음 명령어를 실행한다.
 WSL에서 사용할 리눅스 배포판을 설치하기 위해  Microsoft store에서 Ubuntu 다운받아준다.
 <br>![image](https://github.com/user-attachments/assets/988d57cf-7810-41c0-9383-22935b9b4ec2)</br>
 가장 상단에 있는 Ubuntu를 설치한뒤 실행을 한다.
+
+처음에 'Installing. this may take few minutes…'이라는 메시지가 뜨고 시간이 지나면 사용할 user name , password를 설정하는 입력창이 나타난다.
+<br>![image](https://github.com/user-attachments/assets/3a24eef3-42cd-4bf9-a999-19008643703b)</br>
+user name , password 셋업을 끝난다면 다시 wt를 켜준다.
+### ```$ wsl -l -v```
+위와 같은 명령어를 wt에 입력해 현재 설치된 리눅스를 확인한다.
+<br>![image](https://github.com/user-attachments/assets/20341d2c-0d1d-4c4c-8570-7734b1fff950)</br>
+*는 디폴트 머신 , STATE 머신상태 , VERSION은 WSL의 버전<br>
+머신을 종료할 때는 -t 옵션을 사용한다.</br>
+<br>![image](https://github.com/user-attachments/assets/62e596ab-573b-4f07-93c7-3576e8b03124)</br>
+-t 옵션을 사용한뒤 STATE가 Stopped상태 즉 머신이 종료된걸 확인할 수 있다.
+<br>이로써 wt, WSL2 설치가 끝난다.</br>

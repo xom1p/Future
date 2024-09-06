@@ -38,4 +38,7 @@ user name , password 셋업을 끝난다면 다시 wt를 켜준다.
 머신을 종료할 때는 -t 옵션을 사용한다.</br>
 <br>![image](https://github.com/user-attachments/assets/62e596ab-573b-4f07-93c7-3576e8b03124)</br>
 -t 옵션을 사용한뒤 STATE가 Stopped상태 즉 머신이 종료된걸 확인할 수 있다.
-<br>이로써 wt, WSL2 설치가 끝난다.</br>
+위에 ∨를 눌러 Ubuntu로 바꿔준다.
+<br>![image](https://github.com/user-attachments/assets/998c56ee-8079-4eba-854e-27cd5ac45296)</br>
+
+<br>이로써 wt, WSL2 설치가 끝나고 Ubuntu가 설치된걸 확인할 수 있다.</br>
